@@ -1,0 +1,45 @@
+{
+	"posts" : [
+		{
+			"id":1,
+			"message":"Hi",
+			"user": "Gopi Krishnam Raju",
+			"comments": [
+				{
+					"replyMessage" : "How are you?",
+					"user":"Sri ram"
+				},
+				{
+					"replyMessage" : "Hello",
+					"user":"Naresh"
+				},
+				{
+					"replyMessage" : "Hi",
+					"user":"Prudvi"
+				}
+			],
+			"likes":2,
+			"createdAt":""
+		},
+		{
+			"id":2,
+			"message":"Watching WorldCup final",
+			"user": "Gopi Krishnam Raju",
+			"comments": [
+				{
+					"replyMessage" : "Me Too",
+					"user":"Sri ram"
+				},
+				{
+					"replyMessage" : "Hope this time india wins",
+					"user":"Naresh"
+				},
+				{
+					"replyMessage" : "Yes",
+					"user":"Prudvi"
+				}
+			],
+			"likes":2
+		}
+	]
+}
