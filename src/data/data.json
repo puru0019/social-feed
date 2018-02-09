@@ -1,28 +1,7 @@
 {
 	"posts" : [
 		{
-			"id":1,
-			"message":"Hi",
-			"user": "Gopi Krishnam Raju",
-			"comments": [
-				{
-					"replyMessage" : "How are you?",
-					"user":"Sri ram"
-				},
-				{
-					"replyMessage" : "Hello",
-					"user":"Naresh"
-				},
-				{
-					"replyMessage" : "Hi",
-					"user":"Prudvi"
-				}
-			],
-			"likes":2,
-			"createdAt":""
-		},
-		{
-			"id":2,
+			"id":0,
 			"message":"Watching WorldCup final",
 			"user": "Gopi Krishnam Raju",
 			"comments": [
@@ -39,7 +18,8 @@
 					"user":"Prudvi"
 				}
 			],
-			"likes":2
+			"liked":false,
+			"createdAt":"Fri Feb 09 2018 15:18:23 GMT+0530 (India Standard Time)"
 		}
 	]
 }

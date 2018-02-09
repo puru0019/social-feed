@@ -25,18 +25,64 @@
 .post {
   min-height: 150px;
   background-color: #fff;
+  padding:20px;
+  margin-bottom:10px;
+  text-align: left;
+}
+.post-container {
   width:30%;
   margin:10px auto;
-  padding:20px;
+}
+.createFeed {
+  text-align:left;
+}
+.createFeed button,.commentButton {
+  margin-top:10px;
+}
+svg {
+  padding-right:5px;
 }
 .user {
-  padding:10px 0 0 10px;
+  color:#0d54af;
+  padding:5px 0 0 10px;
 }
+.reply-message {
+  color:#000;
+  padding:5px 0 0 10px;
+} 
 .message {
   padding:20px 5px;
 }
 .picture {
   width:50px;
+}
+.comment {
+  padding:10px;
+}
+.comments {
+  width:100%;
+  background-color:#f6f7f9;
+}
+.comment-picture {
+  width:30px;
+  margin-left:10px;
+}
+.footer {
+  text-align: center;
+}
+.liked {
+  color:#0d54af;
+  display: inline-block;
+}
+.align-text {
+  margin-left: 15px;
+}
+.not-liked {
+  display: inline-block;
+}
+.post-message {
+  padding:20px 5px;
+  word-break: break-all;
 }
 
 @keyframes App-logo-spin {
